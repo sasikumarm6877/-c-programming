@@ -1,0 +1,240 @@
+//1.)sum of digit
+/*#include<stdio.h>
+int main()
+{
+int num,r,sum=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+sum+=r;
+}
+printf("%d\n",sum);
+}
+*/
+//2.)  sum of odd digit
+/*
+#include<stdio.h>
+int main()
+{
+int num,r,sum=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if(r%2!=0)
+sum+=r;
+}
+printf("%d\n",sum);
+}
+*/
+//3.) sum of digit more than 5
+
+/*#include<stdio.h>
+int main()
+{
+int num,r,sum=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if(r>5)
+sum+=r;
+}
+printf("%d\n",sum);
+}*/
+//4.) sum of less than 7
+/*#include<stdio.h>
+int main()
+{
+int num,r,sum=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if(r<7)
+sum+=r;
+}
+printf("%d\n",sum);
+}*/
+
+//5.)sum of digit in between 3 to 8
+
+/*#include<stdio.h>
+int main()
+{
+int num,r,sum=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if(r>=3 && r<=8)
+sum+=r;
+}
+printf("%d\n",sum);
+}
+*/
+
+//6.) count digit in num
+
+/*#include<stdio.h>
+int main()
+{
+int num,r,count=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+count++;
+}
+printf("%d\n",count);
+}
+*/
+
+//7.)count odd digits in num
+/*#include<stdio.h>
+int main()
+{
+int num,r,count=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if(r%2!=0)
+count++;
+}
+printf("%d\n",count);
+}*/
+
+//8.)count even digit more than 4
+/*#include<stdio.h>
+int main()
+{
+int num,r,count=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if(r%2==0&& r>4)
+//if(r>4)
+count++;
+}
+printf("%d\n",count);
+}
+*/
+//9.)count odd digit more than 3 and less than 8
+
+/*
+#include<stdio.h>
+int main()
+{
+int num,r,count=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if((r%2!=0)&&(r>3 &&r<8))
+count++;
+}
+printf("%d\n",count);
+}
+*/
+//10.)count even digit b/w 1 to 7
+
+/*#include<stdio.h>
+int main()
+{
+int num,r,count=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if((r%2==0)&&(r>1 && r<7))
+count++;
+}
+printf("%d\n",count);
+}
+*/
+//11.)sum of even digit
+
+/*#include<stdio.h>
+int main()
+{
+int num,r,sum=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if(r%2==0)
+sum+=r;
+}
+printf("%d\n",sum);
+}
+*/
+//12.)sum of last 3 digit
+
+/*#include<stdio.h>
+int main()
+{
+int num,r,sum=0,count=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+count++;
+if(count<=3)
+sum+=r;
+}
+printf("%d\n",sum);
+}
+*/
+//13.) sum of last 3 odd digit
+
+/*#include<stdio.h>
+int main()
+{
+int num,r,sum=0,count=0;
+scanf("%d",&num);
+for(;count<3;num/=10)
+{
+r=num%10;
+if(r%2!=0)
+{
+sum+=r;
+count++;
+}
+}
+printf("%d\n",sum);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
