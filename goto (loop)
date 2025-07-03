@@ -625,7 +625,24 @@ goto sasi;
 first=temp;
 printf("%d",first+last);
 }
-
+//28.)print sum of 1st and last 2nd digit 
+#include<stdio.h>
+int main()
+{
+int num,last,llast,first;
+scanf("%d",&num);
+last=num%10;
+num/=10;
+llast=num%10;
+sasi:
+if(num>=10)
+{
+num/=10;
+goto sasi;
+}
+first=num;
+printf("%d\n",llast+first);
+}
 //////////////////////////
 // WAP IN C TO COUNT DIGITS ANY NUMBER 
 #include<stdio.h>
