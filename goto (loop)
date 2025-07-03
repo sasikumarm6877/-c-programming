@@ -578,6 +578,36 @@ if(digit<1)
 goto sasi;
 printf("%d\n",sum);
 }
+//26.)print 1st odd digit start
+#include<stdio.h>
+int main()
+{
+int num,sum,temp,temp1,digit=0,rev=0;
+scanf("%d",&num);
+sasi:
+if(num!=0)
+{
+temp=num%10;
+num/=10;
+}
+rev=rev*10+temp;
+if(num)
+goto sasi;
+sasi1:
+if(rev!=0)
+{
+temp1=rev%10;
+rev/=10;
+}
+if(temp1%2!=0)
+{
+sum=temp1;
+digit++;
+}
+if(digit<1)
+goto sasi1;
+printf("%d",temp1);
+}
 //////////////////////////
 // WAP IN C TO COUNT DIGITS ANY NUMBER 
 #include<stdio.h>
