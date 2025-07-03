@@ -184,6 +184,20 @@ count++;
 }
 printf("%d\n",sum);
 }
+//14.)print last 3 digits 
+#include<stdio.h>
+int main()
+{
+int num,temp,i=0;
+scanf("%d",&num);
+for(i;i<3;i++)
+{
+temp=num%10;
+num/=10;
+printf("%d ",temp);
+}
+printf("\n");
+}
 
 
 
