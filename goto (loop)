@@ -535,19 +535,28 @@ printf("%d\n",r);
 #include<stdio.h>
 int main()
 {
-int num,r,digit=0,pos=0;
-scanf("%d %d",&num,&digit);
+int num,mid,temp,temp1,count=0,i=0;
+scanf("%d",&num);
+temp=num;
 sasi:
-num/=10;
-digit++;
+if(temp!=0)
+{
+temp/=10;
+count++;
 goto sasi;
+}
+mid=count/2;
 temp=num;
 sasi1:
-r=temp%10;
-if(
-
-
-
+if(i<count-mid)
+{
+temp1=temp%10;
+temp/=10;
+i++;
+goto sasi1;
+}
+printf("%d",temp1);
+}
 //////////////////////////
 // WAP IN C TO COUNT DIGITS ANY NUMBER 
 #include<stdio.h>
