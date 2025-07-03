@@ -557,6 +557,27 @@ goto sasi1;
 }
 printf("%d",temp1);
 }
+//25.) print 1st odd digit from end
+#include<stdio.h>
+int main()
+{
+int num,sum,temp,temp1,digit=0;
+scanf("%d",&num);
+temp=num;
+sasi:
+if(temp!=0)
+{
+temp1=temp%10;
+temp/=10;
+if(temp1%2!=0)
+{
+sum=temp1;
+digit++;
+}
+if(digit<1)
+goto sasi;
+printf("%d\n",sum);
+}
 //////////////////////////
 // WAP IN C TO COUNT DIGITS ANY NUMBER 
 #include<stdio.h>
