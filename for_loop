@@ -198,6 +198,21 @@ printf("%d ",temp);
 }
 printf("\n");
 }
+//15.)print frist digit  
+#include<stdio.h>
+int main()
+{
+int num,r,dum,rev=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+rev=rev*10+r;
+}
+dum=rev%10;
+printf("%d\n",dum);
+}
+
 
 
 
