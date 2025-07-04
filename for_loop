@@ -254,6 +254,24 @@ r/=10;
 }
 printf("%d",rev);
 }
+//19.) Reverse digit more than 5.
+#include<stdio.h>
+int main()
+{
+int num,r,rev=0,temp;
+scanf("%d",&num);
+for(;num;)
+{
+r=num%10;
+num/=10;
+if(r>5)
+{
+rev=rev*10+r;
+}
+}
+printf("%d",rev);
+}
+
 
 
 
