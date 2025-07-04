@@ -212,6 +212,19 @@ rev=rev*10+r;
 dum=rev%10;
 printf("%d\n",dum);
 }
+//16.)Reverse the number
+#include<stdio.h>
+int main()
+{
+int num,r,rev=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+rev=rev*10+r;
+}
+printf("%d \n",rev);
+}
 
 
 
