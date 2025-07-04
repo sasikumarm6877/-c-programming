@@ -271,6 +271,23 @@ rev=rev*10+r;
 }
 printf("%d",rev);
 }
+//20.) Reverse digit more than 4 and less than 8 
+#include<stdio.h>
+int main()
+{
+int num,r,rev=0,temp;
+scanf("%d",&num);
+for(;num;)
+{
+r=num%10;
+num/=10;
+if(r>4 && r<8)
+{
+rev=rev*10+r;
+}
+}
+printf("%d",rev);
+}
 
 
 
