@@ -225,6 +225,20 @@ rev=rev*10+r;
 }
 printf("%d \n",rev);
 }
+//17.) Revrse the odd digit 
+#include<stdio.h>
+int main()
+{
+int num,r,temp=0;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+r=num%10;
+if(r%2!=0)
+temp=temp*10+r;
+}
+printf("%d\n",temp);
+}
 
 
 
