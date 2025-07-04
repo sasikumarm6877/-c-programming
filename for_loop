@@ -239,6 +239,22 @@ temp=temp*10+r;
 }
 printf("%d\n",temp);
 }
+//18.) Revrse the last 2 digit 
+#include<stdio.h>
+int main()
+{
+int num,r,i,temp,rev=0;
+scanf("%d",&num);
+r=num%100;
+for(i=0;i<2;i++)
+{
+temp=r%10;
+rev=rev*10+temp;
+r/=10;
+}
+printf("%d",rev);
+}
+
 
 
 
