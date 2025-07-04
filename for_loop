@@ -288,6 +288,26 @@ rev=rev*10+r;
 }
 printf("%d",rev);
 }
+//21. Sum of 1st 3 digit 
+#include<stdio.h>
+int main()
+{
+int num,r,rev=0,temp,temp1,i,sum=0;
+scanf("%d",&num);
+for(;num;)
+{
+r=num%10;
+num/=10;
+rev=rev*10+r;
+}
+for(i=0;i<3;i++)
+{
+temp=rev%10;
+rev/=10;
+sum+=temp;
+}
+printf("%d",sum);
+}
 
 
 
