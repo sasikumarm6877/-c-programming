@@ -385,6 +385,21 @@ break;
 }
 }
 }
+//27.) Sum of 1st and last digit 
+#include<stdio.h>
+int main()
+{
+int num,rev=0,r,rev1,r2;
+scanf("%d",&num);
+for(int temp=num;temp>0;temp/=10)
+{
+r=temp%10;
+rev=rev*10+r;
+}
+rev1=rev%10;
+r2=num%10;
+printf("%d\n",rev1+r2);
+}
 
 
 
