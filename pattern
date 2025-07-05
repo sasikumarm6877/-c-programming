@@ -1,1 +1,84 @@
-
+// normal method 
+#include<stdio.h>
+int main()
+{
+int i,j;
+for(i=0;i<=3;i++)
+{
+for(j=0;j<=3;j++)
+printf("%d",j);
+printf("\n");
+}
+printf("%d",i);
+}
+OUTPUT===>
+0123
+0123
+0123
+0123
+ 
+/////////////    PATTERN       //////////////
+//1.)
+#include<stdio.h>
+int main()
+{
+int i,j;
+for(i=0;i<=2;i++)
+{
+for(j=0;j<=2;j++)
+printf("%d",i);
+printf("\n");
+}
+}  
+OUTPUT 
+000
+111
+222
+//2.)
+#include<stdio.h>
+int main()
+{
+int i,j;
+for(i=0;i<=2;i++)
+{
+for(j=0;j<=i;j++)
+printf("%d ",i);
+printf("\n");
+}
+}  
+OUTPUT 
+0
+1 1
+2 2 2
+//3.)
+#include<stdio.h>
+int main()
+{
+int i,j;
+for(i=0;i<=2;i++)
+{
+for(j=0;j<=2-i;j++)
+printf("%d ",i);
+printf("\n");
+}
+}  
+OUTPUT
+0 0 0
+1 1 
+2
+//4.)
+#include<stdio.h>
+int main()
+{
+int i,j;
+for(i=0;i<=2;i++)
+{
+for(j=0;j<=i+2;j++)
+printf("%d ",i);
+printf("\n");
+}
+}  
+OUTPUT
+0 0 0 
+1 1 1 1 
+2 2 2 2 2 
