@@ -364,8 +364,27 @@ temp/=10;
 }
 printf("%d\n",temp1);
 }
-
-
+//26.)Print 1st odd digit from start.
+#include<stdio.h>
+int main()
+{
+int num,r1,rev=0,temp;
+scanf("%d",&num);
+for(;num;num/=10)
+{
+temp=num%10;
+rev=rev*10+temp;
+}
+for(;rev>0;rev/=10)
+{
+r1=rev%10;
+if(r1%2!=0)
+{
+printf("%d\n",r1);
+break;
+}
+}
+}
 
 
 
