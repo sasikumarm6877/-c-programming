@@ -400,6 +400,27 @@ rev1=rev%10;
 r2=num%10;
 printf("%d\n",rev1+r2);
 }
+//28.)Sum of 1st and 2nd last
+#include<stdio.h>
+int main()
+{
+int num,r,i,rev1,r3,rev=0;
+scanf("%d",&num);
+for(i=0;num;)
+{
+r=num%10;
+i++;
+if(i==2)
+{
+r3=r;
+}
+num/=10;
+rev=rev*10+r;
+}
+printf("%d\n",rev);
+rev1=rev%10;
+printf("%d\n",r3+rev1);
+}
 
 
 
