@@ -96,47 +96,30 @@ printf("%d * %d =%d\n",num,i,num*i);
 if(++i<11)
 goto sasi;
 }
-// WAP TO PRINT BINARY OF GIVEN INTEGER USING GOTO STATEMENT
+// WAP IN C TO COUNT DIGITS ANY NUMBEr
+#include<stdio.>
+void main()
+{
+ int num,r,digits=0;
+ scanf("%d",&num);
+sasi:
+r=num%2;
+if(r!=0)
+digits++;
+num/=10;
+if(num)
+goto sasi;
+printf("%d\n",digits);
+} 
+// WAP IN C TO PRODUCT OF LAST 2 DIGITS OF NUMBER 
 #include<stdio.h>
 void main()
 {
-int num,pos;
-scanf("%d %d",&num,&pos);
+int num,count=0,r,r1=1;
+scanf("%d",&num);
 sasi:
-printf("%d",num>>pos&1);
-pos--;
-if(pos>=0) // WAP IN C TO COUNT DIGITS ANY NUMBER 
-  2 
-  3 
-  4 /*#include<stdio.h>
-  5 void main()
-  6 {
-  7 int num,r,digits=0;
-  8 scanf("%d",&num);
-  9 sasi:
- 10 r=num%2;
- 11 if(r!=0)
- 12 digits++;
- 13 num/=10;
- 14 if(num)
- 15 goto sasi;
- 16 printf("%d\n",digits);
- 17 }
- 18 */
- 19 
- 20 
- 21 // WAP IN C TO PRODUCT OF LAST 2 DIGITS OF NUMBER
- 22 
- 23 
- 24 /*#include<stdio.h>
- 25 void main()
- 26 {
- 27 int num,count=0,r,r1=1;
- 28 scanf("%d",&num);
- 29 sasi:
- 30 if(count<2)
- 31 {
-
+if(count<2)
+{
 goto sasi;
 printf("\n");// cut the line of 
 }
@@ -865,8 +848,80 @@ num/=10;
 if(num)
 goto sasi;
 printf("%d\n",sum);
-}                            
-
+}
+// WAP TO PRINT BINARY OF GIVEN INTEGER USING GOTO STATEMENT
+#include<stdio.h>
+void main()
+{
+int num,pos;
+scanf("%d %d",&num,&pos);
+sasi:
+printf("%d",num>>pos&1);
+pos--;
+if(pos>=0)
+goto sasi;
+printf("\n");// cut the line of 
+}
+// WAP TO GET ADDITION OF EACH DIGIT GIVEN NUMBER USING GOTO STATEMENT
+#include<stdio.h>
+void main()
+{
+int num,r,sum=0;
+scanf("%d",&num);
+sasi:
+r=num%10;
+sum=sum+r;
+num=num/10;
+if(num)
+goto sasi;
+printf("sum=%d\n",sum);
+}
+//  TASK (WAP TO GIVEN INPUT AND CONVERT BINARY CODE TO HOW MANY SET,CLEAT COUNT GIVE)
+#include<stdio.h>
+void main()
+{
+int num,result,set=0,clear=0,pos=31;
+scanf("%d\n",&num);
+sasi:
+result=num>>pos&1;
+printf("%d",result);
+pos--;
+if(result==0)
+clear++;
+else if(result==1)
+set++;
+if(pos>=0)
+goto sasi;
+printf("set=%d clear=%d\n",set,clear);
+printf("\n");
+}
+// WAP TO GIVEN INPUT NUMBER AND HOW MANY DIGITS ARE THERE COUNT 
+#include<stdio.h>
+void main()
+{
+long int num,digits=0,r;
+scanf("%ld",&num);
+sasi:
+r=num%10;
+num=num/10;
+digits++;
+if(num)
+goto sasi;
+printf("digits=%ld\n",digits);
+}
+// anothe method(up)
+#include<stdio.h>
+void main()
+{
+long int num,digits=0;
+scanf("%ld",&num);
+sasi:
+digits++;
+num=num/10;
+if(num!=0)
+goto sasi;
+printf("digits=%ld\n",digits);
+}
 
 
 
