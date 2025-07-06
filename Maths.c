@@ -1,6 +1,6 @@
 //1. Print factorial from the user 
      //Eg i/p) 5  o/p: 120 (5*4*3*2*1)
-/*
+
 #include<stdio.h>
 int main()
 {
@@ -13,10 +13,8 @@ fact=fact*i;
 }
 printf("%d\n",fact);
 }
-*/
 //2.)2. Print factor from the users 
 // Eg  i/p) 12 o/p : 1 2 3 4 6 12
-/*
 #include<stdio.h>
 int main()
 {
@@ -28,11 +26,8 @@ if(num%i==0)
 printf("%d\n",i);
 }
 }
-*/
-
 ///3.). Print 3 to power 4 .
 //  o/p: 3*3*3*3 // 81
-/*
 #include<stdio.h>
 int main()
 {
@@ -44,9 +39,7 @@ temp*=num;
 }
 printf("%d\n",temp);
 }
-*/
 //4.)Count factor of 12
-/*
 #include<stdio.h>
 int main()
 {
@@ -59,9 +52,7 @@ count++;
 }
 printf("%d\n",count);
 }
-*/
 //5.)Count , print factor of 11 
-/*
 #include<stdio.h>
 int main()
 {
@@ -77,9 +68,7 @@ printf("%d ",i);
 }
 printf("\n%d\n",count);
 }
-*/
 //6.)Print even factor of 512
-/*
 #include<stdio.h>
 int main()
 {
@@ -96,9 +85,8 @@ printf("%d ",i);
 }
 printf("\n%d\n",count);
 }
-*/
 //7.)Print all odd factor of 900
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num,i;
@@ -110,9 +98,9 @@ if(i%2!=0)
 printf("%d ",i);
 }
 printf("\n");
-}*/
+}
 //8.)Check num is prime or not
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num,i;
@@ -127,9 +115,7 @@ printf("Prime number");
 else
 printf("Not a prime");
 }
-*/
 //9.)Check num is perfect or not
-/*
 #include<stdio.h>
 int main()
 {
@@ -145,9 +131,7 @@ printf("perfet number\n");
 else
 printf("Not a perfect number\n");
 }
-*/
 //12.)Check num is palindrome
-/*
 #include<stdio.h>
 int main()
 {
@@ -164,9 +148,8 @@ printf("palindrome number\n");
 else
 printf("Not a palindrome Number\n");
 }
-*/
 //13.) Print alternate odd number between 21 to 39.
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int count=0,i;
@@ -179,10 +162,8 @@ count++;
 } 
 printf("\n");
 }
-*/
 //14.)print given series .
 //  1 2 4 7 11 16 22
-/*
 #include<stdio.h>
 int main()
 {
@@ -197,10 +178,8 @@ printf("%d ",start);
 }
 }
 }
-*/
 //15.) Print given series .
 // -13 -8 -4 -1 1 2
-/*
 #include<stdio.h>
 int main()
 {
@@ -213,10 +192,9 @@ start+=differ;
 differ--;
 }
 }
-*/
 //16.)Print given series .
 //      2 9 28 65 126 217
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num,i,result;
@@ -229,21 +207,16 @@ printf("%d ",result);
 }
 printf("\n");
 }
- */
 // normal
 ///   input--- char ch='c'
 ///    output----99 143 63
-/*
 #include<stdio.h>
 int main()
 {
 char ch='c';
 printf("%d %x %o",ch,ch,ch);
 }
-*/
 //////////////////             MATH FORMULA            //////////
-
-
 #include<stdio.h>
 void main()
 {
