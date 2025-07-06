@@ -685,6 +685,46 @@ printf("precfect number \n");
 else
 printf("not a precfect number\n");
 }
+//1.) wap in c to delete in specific digit in given number
+#include<stdio.h>
+int main()
+{
+int num,del,temp,dum,rev1=0,rev2=0;
+scanf("%d %d",&num ,&del);
+for(;num;num/=10)
+{
+temp=num%10;
+if(temp!=del)
+rev1=rev1*10+temp;
+}
+for(;rev1;rev1/=10)
+{
+dum=rev1%10;
+rev2=rev2*10+dum;
+}
+printf("%d\n",rev2);
+}
+//2.) wap to repalce multiple 3 digits 1 in a given number
+#include<stdio.h>
+int main()
+{
+int num,dum,temp,sum,rev=0,mul;
+scanf("%d %d",&num,&mul);
+for(;num;num/=10)
+{
+sum=num%10;
+rev=rev*10+sum;
+}
+for(;rev;rev/=10)
+{
+dum=rev%10;
+if(dum%mul==0)
+printf("1");
+else
+printf("%d",dum);
+}
+printf("\n");
+}
 
                                          
 
