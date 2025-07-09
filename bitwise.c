@@ -82,7 +82,27 @@ if(c<3);
 goto L1;
 }
 }
-
-
+// wap in c to give input in character and output in Ascii converted and binary bit
+int main()
+{
+int pos;
+char ch;
+scanf("%c",ch);
+printf("%d\n",ch);
+for(pos=31;pos>=0;pos--)
+{
+printf("%d",ch>>pos&1);
+}
+// wap in c to give input in character and output in Ascii converted and Reverse binary bit
+int main()
+{
+int pos;
+char ch;
+scanf("%c",ch);
+printf("%d\n",ch);
+for(pos=0;pos<=31;pos++)
+printf("%d",ch>>pos&1);
+printf("\n");
+}
 
 
