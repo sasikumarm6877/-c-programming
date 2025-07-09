@@ -1,5 +1,5 @@
 ///////// practice //////
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num1,num2,mul,div,modulus,addition,subraction,temp;
@@ -25,9 +25,8 @@ default:
 	printf("Unknown number\n");
 }
 }
-*/
 /// Another Method [Because not using break method]
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num1,num2,mul,div,modulus,addition,subraction,temp;
@@ -48,11 +47,9 @@ default:
 	printf("Unknown number\n");
 }
 }
-*/
-
 /// Error check or how its work 
 // case label does not reduce to an integer constant
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num1,num2,mul,div,modulus,addition,subraction;
@@ -79,10 +76,8 @@ default:
 	printf("Unknown number\n");
 }
 }
-*/
-
 //3.)duplicate case value and also previously used here(case 1: using two times)
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num1,num2,mul,div,modulus,addition,subraction,temp;
@@ -108,9 +103,7 @@ default:
 	printf("Unknown number\n");
 }
 }
-*/
 //4.)case label does not reduce to an integer constant because only (case  in inpit gives int or char) declaration will define
-/*
 #include<stdio.h>
 int main()
 {
@@ -138,10 +131,8 @@ default:
 	printf("Unknown number\n");
 }
 }
-*/
 // 1.)scanf using int form the user
- //2.)scanf from the user in because using one space give(scanf(" %c",&char) uswe this and get ouput
-/*
+//2.)scanf from the user in because using one space give(scanf(" %c",&char) uswe this and get ouput
 #include<stdio.h>
 int main()
 {
@@ -169,10 +160,7 @@ default:
 	printf("Unknown number\n");
 }
 }
-*/      
-///// all condition prime,factors,factorial,even and odd number
-
-
+///// all condition 1.) Even or Odd number 2.)Prime or Not a prime number 3.) Perfect or Not a perfect number 4.)foactors 5.) Binary bit converstion  6.) Reverse binary bit canoverstion
 #include<stdio.h>
 int main()
 {
