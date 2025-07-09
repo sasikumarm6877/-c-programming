@@ -104,5 +104,26 @@ for(pos=0;pos<=31;pos++)
 printf("%d",ch>>pos&1);
 printf("\n");
 }
+#include<stdio.h>
+int main()
+{
+int num;
+scanf("%d",&num);
+int temp=num,d=0,dig;
+for(;temp;temp/=10)
+d++;
+int sum=0;
+for(temp=num;temp;temp/=10)
+{
+dig=temp%10;
+int power=1;
+for(int i=0;i<d;i++)
+power=power*dig;
+sum=sum+power;
+}
+if(sum==num)
+printf("armstrong no");
+else printf("not a armstrong no");
+}
 
 
