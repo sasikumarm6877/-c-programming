@@ -21,7 +21,7 @@ goto sasi;
 printf("bye\n");
 }
 //  backward goto(loop control(3 times))
-/*#include<stdio.h>
+#include<stdio.h>
 void main()
 {
 printf("hello\n");
@@ -61,7 +61,7 @@ if(i<=10)
 goto sasi;
 }
 //   anothe method(up)
-/*#include<stdio.h>
+#include<stdio.h>
 void main()
 {
 int num,i;
