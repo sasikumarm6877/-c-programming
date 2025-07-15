@@ -1,5 +1,4 @@
 // how to assign and indirectly method in pointer 
-/*
 #include<stdio.h>
 int main()
 {
@@ -16,9 +15,7 @@ printf("j=%d *p=%d\n",j,*p);
 printf("j=%d *p=%d\n",j,*p);
 printf("i=%d j=%d\n",i,j);
 }
-*/
-
-/*///size of the point in char,float,double
+///size of the point in char,float,double
 #include<stdio.h>
 int main()
 {
@@ -29,10 +26,8 @@ printf("%ld %ld\n",sizeof(ch),sizeof(cp));
 printf("%ld %ld\n",sizeof(i),sizeof(ip));
 printf("%ld %ld\n",sizeof(f),sizeof(fp));
 }
-*/
-
-//////////////Swap method 
-/*#include<stdio.h>
+/////////////Swap method 
+#include<stdio.h>
 int main()
 {
 int a=21,b=12;
@@ -43,10 +38,9 @@ temp=*p1;
 *p1=*p2;
 *p2=temp;
 printf("after swap:a=%d b=%d\n",a,b);
-}*/
-
+}
 // Tpo print in differnt ways in the c 
-/*#include <stdio.h>
+#include <stdio.h>
 int main() {
 int a = 10;
 unsigned int u = 300;
@@ -69,10 +63,9 @@ printf("Pointer (%%p): %p\n", ptr);
 printf("Percentage sign (%%%%): %%\n");
 return 0;
 }
-*/
 // Wap to scan an integer variable using pointer variable and print that integer using pointer
 // scan a number to store in pointer
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num;
@@ -82,7 +75,7 @@ printf("enter the number\n");
 scanf("%d",&num);
 printf("num=%d *p=%d\n",num,*p);
 }
-*/
+//Wap to check and store values in different ways
 #include<stdio.h>
 int main()
 {
