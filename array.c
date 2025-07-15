@@ -1,5 +1,5 @@
 // how to calculate elements in the array and print the value of array 
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,ele;
@@ -15,8 +15,8 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*//// UP same method but reverse type
-/*#include<stdio.h>
+/// UP same method but reverse type
+#include<stdio.h>
 int main()
 {
 int n,i,ele;
@@ -32,9 +32,8 @@ for(i=n-1;i>=0;i--)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 //scanning the array element and print the screen
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i;
@@ -50,7 +49,7 @@ printf("%d ",a[i]);
 printf("\n");
 }*/
 // same method but using reverse print but index value is not changed
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,index;
@@ -74,9 +73,9 @@ index=i;
 printf("%d %d ",a[i],index);
 printf("\n");
 }
-}*/
+}
 // UP method but index valuee is from [0]to start 
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,index;
@@ -100,9 +99,8 @@ printf("%d %d ",a[i],index);
 printf("\n");
 }
 }
-*/
 //swapping method in first half and secon half
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,t,j;
@@ -126,9 +124,9 @@ a[j]=t;
 for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
-}*/
+}
 //Swapping method in adjustent element
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j,t;
@@ -159,9 +157,9 @@ a[i+1]=t;
 for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
-}*/
+}
 // scaning only print even number and count it  
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i;
@@ -180,9 +178,8 @@ printf("%d ",a[i]);
 printf("\n");
 printf("%d\n",i);
 }
-*/
 // scaning prime number and count it
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j,count=0;
@@ -207,9 +204,8 @@ count++;
 }
 printf("\n%d\n",count);
 }
-*/
 //scanning 5 elements and print only prime numbers
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j,count=0;
@@ -235,9 +231,8 @@ count++;
 }
 printf("\n%d\n",count);
 }
-*/
 //Wap tp delet the prime number from integer array
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j,k;
@@ -271,9 +266,7 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 // Wap to insert one extra elementin a integer array
-/*
 #include<stdio.h>
 int main()
 {
@@ -300,7 +293,6 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 //Wap to find largest element from integer from without modifying array
 #include<stdio.h>
 int main()
