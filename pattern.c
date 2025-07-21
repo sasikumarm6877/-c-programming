@@ -1,4 +1,4 @@
-/*//1.) pattern method(*)
+//1.) pattern method(*)
 * * * * * 
 * * * * * 
 * * * * * 
@@ -623,7 +623,6 @@ printf("* ");
 printf("\n");
 }
 }
-*/
 
 
 
