@@ -587,7 +587,7 @@ printf("not a pailndrome\n");
 }
 // wap in c to sum of first and last digit of a given number 
 #include<stdio.h>
-204int main()
+int main()
 {
 int num,r,temp,digits=0,sum=0,count=0;
 scanf("%d",&num);
