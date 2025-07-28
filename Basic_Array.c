@@ -1,5 +1,5 @@
 // WAP IN C TO PRINT ARRAY SIZE AND ELEMENTS ,SIZEOF ARRAY,AND PRINT THE ARRAY VALUES
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int a[5]={10,20,30,40,50};
@@ -12,9 +12,8 @@ for(i=0;i<ele;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 //WAP IN TO GET INPUT IN USER FOR ARRAY TYPE
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i;
@@ -25,9 +24,9 @@ scanf("%d",&a[i]);
 for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
-}*/
+}
 //WAP IN C TO PRINT THE NUMBER IN REVERSE ARRAY
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i;
@@ -44,9 +43,8 @@ for(i=n-1;i>=0;i--)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 //WAP IN C TO PRINT IN PRIME NUMBERS
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j;
@@ -72,7 +70,7 @@ printf("\n");
 }
 */
 //WAP IN C TO SCAN A PRIME NUMBER
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j;
@@ -94,9 +92,9 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
+
 //WAP IN C TO PRIN EVEN NUMBER 
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j;
@@ -116,9 +114,8 @@ printf("%d ",a[i]);
 }
 printf("\n");
 }
-*/
 //WAP IN C TO SCAN A EVEN NUMBER
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i;
@@ -134,10 +131,8 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-
-*/
 //WAP IN C TO SWAP A NUMBER REVERSE ALL NUMBER
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j,t;
@@ -160,9 +155,7 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
-
-/*//WAP IN C TO SWAP  A NUMBER IN FIRST HALF AND SECOND HALF WILL BE SWAPPING
+//WAP IN C TO SWAP  A NUMBER IN FIRST HALF AND SECOND HALF WILL BE SWAPPING
 #include<stdio.h>
 int main()
 {
@@ -186,9 +179,8 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 //WAP IN C TO SWAP IN ADJUSTENT ELEMENT SWAPPING
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,t,i,j;
@@ -213,9 +205,8 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 // SAME METHOD IN UP PROGRAM BUT LOGIC IS DIFFERENT
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,t,i,j;
@@ -240,9 +231,8 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 //WAP IN C TO DELETE PRIME NUMBER FORM INTEGER
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,j,k;
@@ -277,9 +267,8 @@ for(i=0;i<n;i++)
 printf("%d ",a[i]);
 printf("\n");
 }
-*/
 //WAP IN C TO PRINT ONE EXTRA ELEMENT IN A INTEGER ARRAY 
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,index,new,i,j;
@@ -307,8 +296,7 @@ printf("%d ",a[i]);
 printf("\n");
 printf("%d\n",n);
 }
-*/
-/*//WAP IN C TO FIND LARGEST ELEMENT FROM INTEGER ARRAY WITHOUT MODIFYING AND SHOW INDEX VALUE
+//WAP IN C TO FIND LARGEST ELEMENT FROM INTEGER ARRAY WITHOUT MODIFYING AND SHOW INDEX VALUE
 #include<stdio.h>
 int main()
 {
@@ -336,8 +324,7 @@ index=i;
 printf("largest number :%d \n",l);
 printf("index value :%d\n",index);
 }
-*/
-/*// WAP IN C TO SECOND LARGEST NUMBER AND INDEX VALUE PRESENT
+// WAP IN C TO SECOND LARGEST NUMBER AND INDEX VALUE PRESENT
 #include<stdio.h>
 int main()
 {
@@ -365,9 +352,8 @@ index=i;
 printf("largest number :%d \n",l);
 printf("index value :%d\n",index);
 }
-*/
 // WAP IN C TO PRINT SECOND LARGEST NUMBER 
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,i,l,sl;
@@ -402,7 +388,6 @@ sl=a[i];
 printf("l=%d sl=%d",l,sl);
 printf("\n");
 }
-*/
 //WAP IN C TO SHORT SELECTION ARRAY 
 #include<stdio.h>
 int main()
