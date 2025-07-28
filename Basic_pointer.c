@@ -14,7 +14,7 @@ printf("j=%d *p=%d\n",j,*p);
 printf("i=%d j=%d *p=%d\n",i,j,*p);
 }
 //WAP TO SCAN  AN INT VARIABLE USING POINTER VARIABLE AND PRINT THAT THROUGH POINTER
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num;// using also unsigned int num
@@ -23,8 +23,8 @@ p=&num;
 scanf("%d",p);
 printf("num=%d *p=%d\n",num,*p);
 }
-*/
-/*#include<stdio.h>
+// Next 
+#include<stdio.h>
 int main()
 {
 int i=258,*p;
@@ -35,9 +35,8 @@ printf("*cp=%d *p=%d\n",*cp,*p);
 printf("*cp=%d *p=%d\n",*cp,*p);
 printf("i=%d\n",i);
 }
-*/
 //WAP TO  PROVE THAT WE ARE WARNING IN LITTLE ENDIAN
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int i;
@@ -49,9 +48,8 @@ printf("Little Endian\n");
 else 
 printf("Big Endian\n");
 }
-*/
 //WAP TO C IN LEARN HOE TO GET FLOAT FROM A INT 
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num;
@@ -63,9 +61,8 @@ fptr=&f;
 printf("%d\n",num);
 printf("%f",*fptr);
 }
- */
 //WAP TO PRINT THE BINARY FORMAT OF FLOAT USING INT 
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 float f;
@@ -75,9 +72,9 @@ p=(int*)&f;
 for(pos=31;pos>=0;pos--)
 printf("%d",*p>>pos&1);
 printf("\n");
-}*/
+}
 //WAP IN USING CONSTANT POINTER
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int i=10;
@@ -88,9 +85,9 @@ p=q=&i;
 printf("%d %d %d",i,*q,*p);
 *q=20;
 printf("\n%d %d %d\n",i,*q,*p);
-}*/
+}
 // INCREAMENT & DECREMENT OF POINTER VARIABLE
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int i;
@@ -105,9 +102,8 @@ printf("p=%p\n p+1=%p\n",p,p+1);
 printf("cp=%p cp=%p\n",cp,cp++);
 printf("p=%p\n p=%p\n",p,p++);
 }
-*/
 //WAP ONE BYTE ONE BYTE ACCESS CHAR
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 unsigned int i;
@@ -120,8 +116,8 @@ printf("%d\n",*cp);
 cp=cp+1;
 printf("%d\n",*cp);
 }
-*/
-/*#include<stdio.h>
+//Next 
+#include<stdio.h>
 int main()
 {
 int i;
@@ -137,9 +133,8 @@ printf("*cp=%d\n",*cp);
 printf("*cp=%d\n",*cp+1);
 printf("i=%d\n",i);
 }
-*/
 //WAP TP SWAP THE FIRST AND FOURTH BYTE OF DATA
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num,t;
@@ -159,8 +154,7 @@ t=*p;
 *q=t;
 printf("full swap num=%x\n",num);
 }
-*/
-/*//WAP IN C RO NIBBLE SWAP OF INTEGER DATA 
+//WAP IN C RO NIBBLE SWAP OF INTEGER DATA 
 #include<stdio.h>
 int main()
 {
@@ -173,9 +167,8 @@ for(i=0,p=(char*)&num;i<4;i++,p=p+1)
 printf("num=%x\n",num);
 }
 }
-*/
 //WAP TO PRINT THE BINARY OF THE FLOAT USING CHAR POINTER
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 float f;
@@ -189,8 +182,7 @@ printf("%d",*p>>pos&1);
 }
 printf("\n");
 }
-*/
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
 int num;
@@ -204,7 +196,7 @@ printf("%d\n",*++p);
 printf("%d\n",*p);
 printf("%d\n",*p);
 }
-*/
+
 
 
 
