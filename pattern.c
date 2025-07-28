@@ -623,7 +623,39 @@ printf("* ");
 printf("\n");
 }
 }
-
+//Exam pattern program
+T R P N L J H 
+ S P N L J H 
+  R P N L J 
+   Q N L J 
+    P N L 
+     O L 
+      N
+#include<stdio.h>
+int main()
+{
+int n,i,s,j,num;
+scanf("%d",&n);
+for(i=0;i<7;i++)
+{
+for(s=0,num=84;s<i;s++,num--)
+printf(" ");
+for(j=1;j<n-i+1;j++)
+{
+if(num%2==0)
+{
+printf("%c ",num);
+num=num-2;
+}
+else
+{
+printf("%c ",num);
+num=num-3;
+}
+}
+printf("\n");
+}
+}
 
 
 
