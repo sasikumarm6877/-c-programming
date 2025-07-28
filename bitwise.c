@@ -125,5 +125,40 @@ if(sum==num)
 printf("armstrong no");
 else printf("not a armstrong no");
 }
+// Exam bitwise number
+input --->  111
+input bitwise ---> 0000 0000 0000 0000 0000 0000 0110 1111
+output bitwise ---> 0000 0000 0000 0000 0000 1111 0110 0000
+output ---> 3936
+
+#include<stdio.h>
+int main()
+{
+unsigned int num,num1,count;
+int pos,n1,n2,n3;
+scanf("%d",&num);
+for(pos=31,count=0;pos>=0;pos--)
+{
+if(count%4==0)
+printf(" ");
+count++;
+printf("%d",num>>pos&1);
+}
+printf("\n");
+num1=num&0xf;
+num1<<=8;
+num=num|num1;
+num=num&~(0xf);
+for(pos=31;pos>=0;pos--)
+{
+if(count%4==0)
+printf(" ");
+count++;
+printf("%d",num>>pos&1);
+}
+printf("\n");
+printf("%d\n",num);
+}
+
 
 
