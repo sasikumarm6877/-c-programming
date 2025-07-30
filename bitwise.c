@@ -125,7 +125,7 @@ if(sum==num)
 printf("armstrong no");
 else printf("not a armstrong no");
 }
-// Exam bitwise number
+// Exam nibble swap number
 input --->  111
 input bitwise ---> 0000 0000 0000 0000 0000 0000 0110 1111
 output bitwise ---> 0000 0000 0000 0000 0000 1111 0110 0000
